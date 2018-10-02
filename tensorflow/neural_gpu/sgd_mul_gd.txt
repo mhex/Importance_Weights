@@ -1,0 +1,374 @@
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcurand.so locally
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:925] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 0 with properties: 
+name: Tesla K40c
+major: 3 minor: 5 memoryClockRate (GHz) 0.745
+pciBusID 0000:04:00.0
+Total memory: 12.00GiB
+Free memory: 11.90GiB
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:126] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:838] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K40c, pci bus id: 0000:04:00.0)
+NN cut 1.20 pull 1.200 lr 0.00 iw 1.00 cr 0.15 nm 128 d0.1500 gn 1.00 data 5000 layers 2 kw 3 h 4 kh 3 relax 6 batch 32 noise 0.00 task mul
+Creating model for bin of length 8.
+Creating backward for bin of length 8.
+Created model for bin of length 8 in 9.86 s.
+Creating model for bin of length 12.
+Creating backward for bin of length 12.
+Created model for bin of length 12 in 11.67 s.
+Creating model for bin of length 16.
+Creating backward for bin of length 16.
+Created model for bin of length 16 in 14.40 s.
+Creating model for bin of length 20.
+Creating backward for bin of length 20.
+Created model for bin of length 20 in 17.42 s.
+Creating model for bin of length 24.
+Creating backward for bin of length 24.
+Created model for bin of length 24 in 20.88 s.
+Creating model for bin of length 28.
+Creating backward for bin of length 28.
+Created model for bin of length 28 in 21.97 s.
+Creating model for bin of length 32.
+Creating backward for bin of length 32.
+Created model for bin of length 32 in 25.79 s.
+Creating model for bin of length 36.
+Creating backward for bin of length 36.
+Created model for bin of length 36 in 29.06 s.
+Creating model for bin of length 40.
+Creating backward for bin of length 40.
+Created model for bin of length 40 in 32.10 s.
+Creating model for bin of length 48.
+Creating backward for bin of length 48.
+Created model for bin of length 48 in 34.54 s.
+Creating model for bin of length 64.
+Creating backward for bin of length 64.
+Created model for bin of length 64 in 48.25 s.
+Creating model for bin of length 401.
+Created model for bin of length 401 in 88.97 s.
+Created model.
+Initialized variables.
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 1816 get requests, put_count=1747 evicted_count=1000 eviction_rate=0.57241 and unsatisfied allocation rate=0.643722
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 100 to 110
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 1092 get requests, put_count=1650 evicted_count=1000 eviction_rate=0.606061 and unsatisfied allocation rate=0.423993
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 233 to 256
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 140 get requests, put_count=1180 evicted_count=1000 eviction_rate=0.847458 and unsatisfied allocation rate=0
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 156 get requests, put_count=1243 evicted_count=1000 eviction_rate=0.804505 and unsatisfied allocation rate=0
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 23648 get requests, put_count=23718 evicted_count=1000 eviction_rate=0.0421621 and unsatisfied allocation rate=0.0471922
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 2049 to 2253
+step 200 step-time 0.89 lr 0.00100000 pull 0.001 grad-norm 0.60479845 len 6 ppx 7.12024292 errors 96.64 sequence-errors 99.66
+  mul len 3 errors 96.15 sequence-errors 100.00
+  mul len 5 errors 93.86 sequence-errors 100.00
+  mul len 7 errors 95.51 sequence-errors 100.00
+  mul len 9 errors 97.19 sequence-errors 100.00
+  mul len 11 errors 94.37 sequence-errors 100.00
+  mul len 13 errors 97.01 sequence-errors 100.00
+  mul len 15 errors 99.77 sequence-errors 100.00
+  mul len 17 errors 100.00 sequence-errors 100.00
+  mul len 19 errors 100.00 sequence-errors 100.00
+  mul len 21 errors 100.00 sequence-errors 100.00
+  mul len 23 errors 100.00 sequence-errors 100.00
+  mul len 25 errors 100.00 sequence-errors 100.00
+  mul len 27 errors 100.00 sequence-errors 100.00
+  mul len 29 errors 100.00 sequence-errors 100.00
+  mul len 31 errors 100.00 sequence-errors 100.00
+  mul len 33 errors 100.00 sequence-errors 100.00
+  mul len 35 errors 100.00 sequence-errors 100.00
+  mul len 37 errors 100.00 sequence-errors 100.00
+  mul len 39 errors 100.00 sequence-errors 100.00
+  mul len 41 errors 100.00 sequence-errors 100.00
+  mul len 43 errors 100.00 sequence-errors 100.00
+  mul len 45 errors 100.00 sequence-errors 100.00
+  mul len 47 errors 100.00 sequence-errors 100.00
+  mul len 49 errors 100.00 sequence-errors 100.00
+  mul len 51 errors 100.00 sequence-errors 100.00
+step 400 step-time 0.23 lr 0.00100000 pull 0.001 grad-norm 0.60180416 len 6 ppx 7.08410502 errors 96.64 sequence-errors 99.61
+  mul len 3 errors 98.04 sequence-errors 100.00
+  mul len 5 errors 94.12 sequence-errors 100.00
+  mul len 7 errors 98.36 sequence-errors 100.00
+  mul len 9 errors 93.80 sequence-errors 100.00
+  mul len 11 errors 98.70 sequence-errors 100.00
+  mul len 13 errors 99.73 sequence-errors 100.00
+  mul len 15 errors 100.00 sequence-errors 100.00
+  mul len 17 errors 100.00 sequence-errors 100.00
+  mul len 19 errors 100.00 sequence-errors 100.00
+  mul len 21 errors 100.00 sequence-errors 100.00
+  mul len 23 errors 100.00 sequence-errors 100.00
+  mul len 25 errors 100.00 sequence-errors 100.00
+  mul len 27 errors 100.00 sequence-errors 100.00
+  mul len 29 errors 100.00 sequence-errors 100.00
+  mul len 31 errors 100.00 sequence-errors 100.00
+  mul len 33 errors 100.00 sequence-errors 100.00
+  mul len 35 errors 100.00 sequence-errors 100.00
+  mul len 37 errors 100.00 sequence-errors 100.00
+  mul len 39 errors 100.00 sequence-errors 100.00
+  mul len 41 errors 100.00 sequence-errors 100.00
+  mul len 43 errors 100.00 sequence-errors 100.00
+  mul len 45 errors 100.00 sequence-errors 100.00
+  mul len 47 errors 100.00 sequence-errors 100.00
+  mul len 49 errors 100.00 sequence-errors 100.00
+  mul len 51 errors 100.00 sequence-errors 100.00
+step 600 step-time 0.21 lr 0.00100000 pull 0.001 grad-norm 0.64601369 len 6 ppx 6.12124528 errors 96.40 sequence-errors 99.31
+  mul len 3 errors 95.56 sequence-errors 96.88
+  mul len 5 errors 95.19 sequence-errors 96.88
+  mul len 7 errors 96.09 sequence-errors 100.00
+  mul len 9 errors 96.76 sequence-errors 100.00
+  mul len 11 errors 98.37 sequence-errors 100.00
+  mul len 13 errors 100.00 sequence-errors 100.00
+  mul len 15 errors 100.00 sequence-errors 100.00
+  mul len 17 errors 100.00 sequence-errors 100.00
+  mul len 19 errors 100.00 sequence-errors 100.00
+  mul len 21 errors 100.00 sequence-errors 100.00
+  mul len 23 errors 100.00 sequence-errors 100.00
+  mul len 25 errors 100.00 sequence-errors 100.00
+  mul len 27 errors 100.00 sequence-errors 100.00
+  mul len 29 errors 100.00 sequence-errors 100.00
+  mul len 31 errors 100.00 sequence-errors 100.00
+  mul len 33 errors 100.00 sequence-errors 100.00
+  mul len 35 errors 100.00 sequence-errors 100.00
+  mul len 37 errors 100.00 sequence-errors 100.00
+  mul len 39 errors 100.00 sequence-errors 100.00
+  mul len 41 errors 100.00 sequence-errors 100.00
+  mul len 43 errors 100.00 sequence-errors 100.00
+  mul len 45 errors 100.00 sequence-errors 100.00
+  mul len 47 errors 100.00 sequence-errors 100.00
+  mul len 49 errors 100.00 sequence-errors 100.00
+  mul len 51 errors 100.00 sequence-errors 100.00
+step 800 step-time 0.25 lr 0.00100000 pull 0.001 grad-norm 0.62046179 len 6 ppx 6.21474058 errors 95.92 sequence-errors 99.39
+  mul len 3 errors 95.92 sequence-errors 100.00
+  mul len 5 errors 96.69 sequence-errors 96.88
+  mul len 7 errors 96.65 sequence-errors 100.00
+  mul len 9 errors 98.33 sequence-errors 100.00
+  mul len 11 errors 100.00 sequence-errors 100.00
+  mul len 13 errors 100.00 sequence-errors 100.00
+  mul len 15 errors 100.00 sequence-errors 100.00
+  mul len 17 errors 100.00 sequence-errors 100.00
+  mul len 19 errors 100.00 sequence-errors 100.00
+  mul len 21 errors 100.00 sequence-errors 100.00
+  mul len 23 errors 100.00 sequence-errors 100.00
+  mul len 25 errors 100.00 sequence-errors 100.00
+  mul len 27 errors 100.00 sequence-errors 100.00
+  mul len 29 errors 100.00 sequence-errors 100.00
+  mul len 31 errors 100.00 sequence-errors 100.00
+  mul len 33 errors 100.00 sequence-errors 100.00
+  mul len 35 errors 100.00 sequence-errors 100.00
+  mul len 37 errors 100.00 sequence-errors 100.00
+  mul len 39 errors 100.00 sequence-errors 100.00
+  mul len 41 errors 100.00 sequence-errors 100.00
+  mul len 43 errors 100.00 sequence-errors 100.00
+  mul len 45 errors 100.00 sequence-errors 100.00
+  mul len 47 errors 100.00 sequence-errors 100.00
+  mul len 49 errors 100.00 sequence-errors 100.00
+  mul len 51 errors 100.00 sequence-errors 100.00
+step 1000 step-time 0.22 lr 0.00100000 pull 0.001 grad-norm 0.60053964 len 6 ppx 6.05889525 errors 95.89 sequence-errors 99.34
+  mul len 3 errors 98.00 sequence-errors 100.00
+  mul len 5 errors 95.37 sequence-errors 100.00
+  mul len 7 errors 94.97 sequence-errors 100.00
+  mul len 9 errors 98.37 sequence-errors 100.00
+  mul len 11 errors 100.00 sequence-errors 100.00
+  mul len 13 errors 100.00 sequence-errors 100.00
+  mul len 15 errors 100.00 sequence-errors 100.00
+  mul len 17 errors 100.00 sequence-errors 100.00
+  mul len 19 errors 100.00 sequence-errors 100.00
+  mul len 21 errors 100.00 sequence-errors 100.00
+  mul len 23 errors 100.00 sequence-errors 100.00
+  mul len 25 errors 100.00 sequence-errors 100.00
+  mul len 27 errors 100.00 sequence-errors 100.00
+  mul len 29 errors 100.00 sequence-errors 100.00
+  mul len 31 errors 100.00 sequence-errors 100.00
+  mul len 33 errors 100.00 sequence-errors 100.00
+  mul len 35 errors 100.00 sequence-errors 100.00
+  mul len 37 errors 100.00 sequence-errors 100.00
+  mul len 39 errors 100.00 sequence-errors 100.00
+  mul len 41 errors 100.00 sequence-errors 100.00
+  mul len 43 errors 100.00 sequence-errors 100.00
+  mul len 45 errors 100.00 sequence-errors 100.00
+  mul len 47 errors 100.00 sequence-errors 100.00
+  mul len 49 errors 100.00 sequence-errors 100.00
+  mul len 51 errors 100.00 sequence-errors 100.00
+step 1200 step-time 0.21 lr 0.00100000 pull 0.001 grad-norm 0.61125286 len 6 ppx 6.24701327 errors 95.64 sequence-errors 99.16
+  mul len 3 errors 92.31 sequence-errors 93.75
+  mul len 5 errors 94.64 sequence-errors 100.00
+  mul len 7 errors 96.70 sequence-errors 100.00
+  mul len 9 errors 100.00 sequence-errors 100.00
+  mul len 11 errors 100.00 sequence-errors 100.00
+  mul len 13 errors 100.00 sequence-errors 100.00
+  mul len 15 errors 100.00 sequence-errors 100.00
+  mul len 17 errors 100.00 sequence-errors 100.00
+  mul len 19 errors 100.00 sequence-errors 100.00
+  mul len 21 errors 100.00 sequence-errors 100.00
+  mul len 23 errors 100.00 sequence-errors 100.00
+  mul len 25 errors 100.00 sequence-errors 100.00
+  mul len 27 errors 100.00 sequence-errors 100.00
+  mul len 29 errors 100.00 sequence-errors 100.00
+  mul len 31 errors 100.00 sequence-errors 100.00
+  mul len 33 errors 100.00 sequence-errors 100.00
+  mul len 35 errors 100.00 sequence-errors 100.00
+  mul len 37 errors 100.00 sequence-errors 100.00
+  mul len 39 errors 100.00 sequence-errors 100.00
+  mul len 41 errors 100.00 sequence-errors 100.00
+  mul len 43 errors 100.00 sequence-errors 100.00
+  mul len 45 errors 100.00 sequence-errors 100.00
+  mul len 47 errors 100.00 sequence-errors 100.00
+  mul len 49 errors 100.00 sequence-errors 100.00
+  mul len 51 errors 100.00 sequence-errors 100.00
+step 1400 step-time 0.27 lr 0.00098000 pull 0.001 grad-norm 0.59293779 len 6 ppx 6.14645475 errors 95.20 sequence-errors 99.26
+  mul len 3 errors 98.08 sequence-errors 100.00
+  mul len 5 errors 91.23 sequence-errors 100.00
+  mul len 7 errors 96.69 sequence-errors 100.00
+  mul len 9 errors 100.00 sequence-errors 100.00
+  mul len 11 errors 100.00 sequence-errors 100.00
+  mul len 13 errors 100.00 sequence-errors 100.00
+  mul len 15 errors 100.00 sequence-errors 100.00
+  mul len 17 errors 100.00 sequence-errors 100.00
+  mul len 19 errors 100.00 sequence-errors 100.00
+  mul len 21 errors 100.00 sequence-errors 100.00
+  mul len 23 errors 100.00 sequence-errors 100.00
+  mul len 25 errors 100.00 sequence-errors 100.00
+  mul len 27 errors 100.00 sequence-errors 100.00
+  mul len 29 errors 100.00 sequence-errors 100.00
+  mul len 31 errors 100.00 sequence-errors 100.00
+  mul len 33 errors 100.00 sequence-errors 100.00
+  mul len 35 errors 100.00 sequence-errors 100.00
+  mul len 37 errors 100.00 sequence-errors 100.00
+  mul len 39 errors 100.00 sequence-errors 100.00
+  mul len 41 errors 100.00 sequence-errors 100.00
+  mul len 43 errors 100.00 sequence-errors 100.00
+  mul len 45 errors 100.00 sequence-errors 100.00
+  mul len 47 errors 100.00 sequence-errors 100.00
+  mul len 49 errors 100.00 sequence-errors 100.00
+  mul len 51 errors 100.00 sequence-errors 100.00
+step 1600 step-time 0.21 lr 0.00098000 pull 0.001 grad-norm 0.62124435 len 6 ppx 5.97155624 errors 95.44 sequence-errors 98.98
+  mul len 3 errors 100.00 sequence-errors 100.00
+  mul len 5 errors 93.91 sequence-errors 100.00
+  mul len 7 errors 94.97 sequence-errors 100.00
+  mul len 9 errors 99.60 sequence-errors 100.00
+  mul len 11 errors 100.00 sequence-errors 100.00
+  mul len 13 errors 100.00 sequence-errors 100.00
+  mul len 15 errors 100.00 sequence-errors 100.00
+  mul len 17 errors 100.00 sequence-errors 100.00
+  mul len 19 errors 100.00 sequence-errors 100.00
+  mul len 21 errors 100.00 sequence-errors 100.00
+  mul len 23 errors 100.00 sequence-errors 100.00
+  mul len 25 errors 100.00 sequence-errors 100.00
+  mul len 27 errors 100.00 sequence-errors 100.00
+  mul len 29 errors 100.00 sequence-errors 100.00
+  mul len 31 errors 100.00 sequence-errors 100.00
+  mul len 33 errors 100.00 sequence-errors 100.00
+  mul len 35 errors 100.00 sequence-errors 100.00
+  mul len 37 errors 100.00 sequence-errors 100.00
+  mul len 39 errors 100.00 sequence-errors 100.00
+  mul len 41 errors 100.00 sequence-errors 100.00
+  mul len 43 errors 100.00 sequence-errors 100.00
+  mul len 45 errors 100.00 sequence-errors 100.00
+  mul len 47 errors 100.00 sequence-errors 100.00
+  mul len 49 errors 100.00 sequence-errors 100.00
+  mul len 51 errors 100.00 sequence-errors 100.00
+step 1800 step-time 0.25 lr 0.00098000 pull 0.001 grad-norm 0.60410316 len 6 ppx 5.65906359 errors 94.88 sequence-errors 98.86
+  mul len 3 errors 94.00 sequence-errors 96.88
+  mul len 5 errors 95.45 sequence-errors 100.00
+  mul len 7 errors 97.11 sequence-errors 100.00
+  mul len 9 errors 100.00 sequence-errors 100.00
+  mul len 11 errors 100.00 sequence-errors 100.00
+  mul len 13 errors 100.00 sequence-errors 100.00
+  mul len 15 errors 100.00 sequence-errors 100.00
+  mul len 17 errors 100.00 sequence-errors 100.00
+  mul len 19 errors 100.00 sequence-errors 100.00
+  mul len 21 errors 100.00 sequence-errors 100.00
+  mul len 23 errors 100.00 sequence-errors 100.00
+  mul len 25 errors 100.00 sequence-errors 100.00
+  mul len 27 errors 100.00 sequence-errors 100.00
+  mul len 29 errors 100.00 sequence-errors 100.00
+  mul len 31 errors 100.00 sequence-errors 100.00
+  mul len 33 errors 100.00 sequence-errors 100.00
+  mul len 35 errors 100.00 sequence-errors 100.00
+  mul len 37 errors 100.00 sequence-errors 100.00
+  mul len 39 errors 100.00 sequence-errors 100.00
+  mul len 41 errors 100.00 sequence-errors 100.00
+  mul len 43 errors 100.00 sequence-errors 100.00
+  mul len 45 errors 100.00 sequence-errors 100.00
+  mul len 47 errors 100.00 sequence-errors 100.00
+  mul len 49 errors 100.00 sequence-errors 100.00
+  mul len 51 errors 100.00 sequence-errors 100.00
+step 2000 step-time 0.21 lr 0.00098000 pull 0.001 grad-norm 0.59889204 len 6 ppx 5.49444592 errors 95.21 sequence-errors 98.62
+  mul len 3 errors 96.00 sequence-errors 96.88
+  mul len 5 errors 95.58 sequence-errors 100.00
+  mul len 7 errors 96.20 sequence-errors 100.00
+  mul len 9 errors 100.00 sequence-errors 100.00
+  mul len 11 errors 100.00 sequence-errors 100.00
+  mul len 13 errors 100.00 sequence-errors 100.00
+  mul len 15 errors 100.00 sequence-errors 100.00
+  mul len 17 errors 100.00 sequence-errors 100.00
+  mul len 19 errors 100.00 sequence-errors 100.00
+  mul len 21 errors 100.00 sequence-errors 100.00
+  mul len 23 errors 100.00 sequence-errors 100.00
+  mul len 25 errors 100.00 sequence-errors 100.00
+  mul len 27 errors 100.00 sequence-errors 100.00
+  mul len 29 errors 100.00 sequence-errors 100.00
+  mul len 31 errors 100.00 sequence-errors 100.00
+  mul len 33 errors 100.00 sequence-errors 100.00
+  mul len 35 errors 100.00 sequence-errors 100.00
+  mul len 37 errors 100.00 sequence-errors 100.00
+  mul len 39 errors 100.00 sequence-errors 100.00
+  mul len 41 errors 100.00 sequence-errors 100.00
+  mul len 43 errors 100.00 sequence-errors 100.00
+  mul len 45 errors 100.00 sequence-errors 100.00
+  mul len 47 errors 100.00 sequence-errors 100.00
+  mul len 49 errors 100.00 sequence-errors 100.00
+  mul len 51 errors 100.00 sequence-errors 100.00
+step 2200 step-time 0.28 lr 0.00098000 pull 0.001 grad-norm 0.59367435 len 6 ppx 5.23459546 errors 95.24 sequence-errors 98.80
+  mul len 3 errors 98.04 sequence-errors 100.00
+  mul len 5 errors 93.10 sequence-errors 100.00
+  mul len 7 errors 97.31 sequence-errors 100.00
+  mul len 9 errors 100.00 sequence-errors 100.00
+  mul len 11 errors 100.00 sequence-errors 100.00
+  mul len 13 errors 100.00 sequence-errors 100.00
+  mul len 15 errors 100.00 sequence-errors 100.00
+  mul len 17 errors 100.00 sequence-errors 100.00
+  mul len 19 errors 100.00 sequence-errors 100.00
+  mul len 21 errors 100.00 sequence-errors 100.00
+  mul len 23 errors 100.00 sequence-errors 100.00
+  mul len 25 errors 100.00 sequence-errors 100.00
+  mul len 27 errors 100.00 sequence-errors 100.00
+  mul len 29 errors 100.00 sequence-errors 100.00
+  mul len 31 errors 100.00 sequence-errors 100.00
+  mul len 33 errors 100.00 sequence-errors 100.00
+  mul len 35 errors 100.00 sequence-errors 100.00
+  mul len 37 errors 100.00 sequence-errors 100.00
+  mul len 39 errors 100.00 sequence-errors 100.00
+  mul len 41 errors 100.00 sequence-errors 100.00
+  mul len 43 errors 100.00 sequence-errors 100.00
+  mul len 45 errors 100.00 sequence-errors 100.00
+  mul len 47 errors 100.00 sequence-errors 100.00
+  mul len 49 errors 100.00 sequence-errors 100.00
+  mul len 51 errors 100.00 sequence-errors 100.00
+step 2400 step-time 0.21 lr 0.00098000 pull 0.001 grad-norm 0.62259269 len 6 ppx 5.32482958 errors 95.22 sequence-errors 98.20
+  mul len 3 errors 88.46 sequence-errors 90.62
+  mul len 5 errors 95.41 sequence-errors 100.00
+  mul len 7 errors 98.25 sequence-errors 100.00
+  mul len 9 errors 100.00 sequence-errors 100.00
+  mul len 11 errors 100.00 sequence-errors 100.00
+  mul len 13 errors 100.00 sequence-errors 100.00
+  mul len 15 errors 100.00 sequence-errors 100.00
+  mul len 17 errors 100.00 sequence-errors 100.00
+  mul len 19 errors 100.00 sequence-errors 100.00
+  mul len 21 errors 100.00 sequence-errors 100.00
+  mul len 23 errors 100.00 sequence-errors 100.00
+  mul len 25 errors 100.00 sequence-errors 100.00
+  mul len 27 errors 100.00 sequence-errors 100.00
+  mul len 29 errors 100.00 sequence-errors 100.00
+  mul len 31 errors 100.00 sequence-errors 100.00
+  mul len 33 errors 100.00 sequence-errors 100.00
+  mul len 35 errors 100.00 sequence-errors 100.00
+  mul len 37 errors 100.00 sequence-errors 100.00
+  mul len 39 errors 100.00 sequence-errors 100.00
+  mul len 41 errors 100.00 sequence-errors 100.00
+  mul len 43 errors 100.00 sequence-errors 100.00
+  mul len 45 errors 100.00 sequence-errors 100.00
+  mul len 47 errors 100.00 sequence-errors 100.00
+  mul len 49 errors 100.00 sequence-errors 100.00
+  mul len 51 errors 100.00 sequence-errors 100.00
+step 2600 step-time 0.23 lr 0.00098000 pull 0.001 grad-norm 0.59854440 len 6 ppx 5.07802248 errors 94.86 sequence-errors 98.10

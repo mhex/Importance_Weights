@@ -1,0 +1,1 @@
+WARNING:tensorflow:Standard services need a 'logdir' passed to the SessionManager
